@@ -58,7 +58,7 @@
   "resources": [
     {
       "type": "Microsoft.Resources/deployments",
-      "apiVersion": "2015-01-01",
+      "apiVersion": "2018-09-01",
       "name": "[concat(parameters('vmName'),'-diskSelection')]",
       "properties": {
         "mode": "Incremental",
