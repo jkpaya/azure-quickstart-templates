@@ -49,7 +49,7 @@
                 "name": "[concat(parameters('diskNamingPrefix'), 'disk1')]",
                 "diskSizeGB": "[parameters('vmDiskSize')]",
                 "lun": 1,
-                "caching": "None",
+                "caching": "ReadWrite",
                 "createOption": "Empty"
             },
             {
