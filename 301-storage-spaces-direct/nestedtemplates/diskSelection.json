@@ -31,7 +31,6 @@
     "variables": {
         "diskArray": [
             {
-
                 "name": "[concat(parameters('diskNamingPrefix'), 'disk0')]",
                 "diskSizeGB": "[parameters('vmDiskSize')]",
                 "lun": 0,
