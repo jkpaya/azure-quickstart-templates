@@ -41,70 +41,70 @@
                 "name": "[concat(parameters('diskNamingPrefix'), 'disk1')]",
                 "diskSizeGB": "[parameters('vmDiskSize')]",
                 "lun": 1,
-                "caching": "None",
+                "caching": "[parameters('diskCaching')]",
                 "createOption": "Empty"
             },
             {
                 "name": "[concat(parameters('diskNamingPrefix'), 'disk2')]",
                 "diskSizeGB": "[parameters('vmDiskSize')]",
                 "lun": 2,
-                "caching": "None",
+                "caching": "[parameters('diskCaching')]",
                 "createOption": "Empty"
             },
             {
                 "name": "[concat(parameters('diskNamingPrefix'), 'disk3')]",
                 "diskSizeGB": "[parameters('vmDiskSize')]",
                 "lun": 3,
-                "caching": "None",
+                "caching": "[parameters('diskCaching')]",
                 "createOption": "Empty"
             },
             {
                 "name": "[concat(parameters('diskNamingPrefix'), 'disk4')]",
                 "diskSizeGB": "[parameters('vmDiskSize')]",
                 "lun": 4,
-                "caching": "None",
+                "caching": "[parameters('diskCaching')]",
                 "createOption": "Empty"
             },
             {
                 "name": "[concat(parameters('diskNamingPrefix'), 'disk5')]",
                 "diskSizeGB": "[parameters('vmDiskSize')]",
                 "lun": 5,
-                "caching": "None",
+                "caching": "[parameters('diskCaching')]",
                 "createOption": "Empty"
             },
             {
                 "name": "[concat(parameters('diskNamingPrefix'), 'disk6')]",
                 "diskSizeGB": "[parameters('vmDiskSize')]",
                 "lun": 6,
-                "caching": "None",
+                "caching": "[parameters('diskCaching')]",
                 "createOption": "Empty"
             },
             {
                 "name": "[concat(parameters('diskNamingPrefix'), 'disk7')]",
                 "diskSizeGB": "[parameters('vmDiskSize')]",
                 "lun": 7,
-                "caching": "None",
+                "caching": "[parameters('diskCaching')]",
                 "createOption": "Empty"
             },
             {
                 "name": "[concat(parameters('diskNamingPrefix'), 'disk8')]",
                 "diskSizeGB": "[parameters('vmDiskSize')]",
                 "lun": 8,
-                "caching": "None",
+                "caching": "[parameters('diskCaching')]",
                 "createOption": "Empty"
             },
             {
                 "name": "[concat(parameters('diskNamingPrefix'), 'disk9')]",
                 "diskSizeGB": "[parameters('vmDiskSize')]",
                 "lun": 9,
-                "caching": "None",
+                "caching": "[parameters('diskCaching')]",
                 "createOption": "Empty"
             },
             {
                 "name": "[concat(parameters('diskNamingPrefix'), 'disk10')]",
                 "diskSizeGB": "[parameters('vmDiskSize')]",
                 "lun": 10,
-                "caching": "None",
+                "caching": "[parameters('diskCaching')]",
                 "createOption": "Empty"
             },
             {
