@@ -31,6 +31,9 @@
     "variables": {
         "diskArray": [
             {
+                      "managedDisk": {
+                                    "storageAccountType": "Standard_GRS"
+                                },
                 "name": "[concat(parameters('diskNamingPrefix'), 'disk0')]",
                 "diskSizeGB": "[parameters('vmDiskSize')]",
                 "lun": 0,
@@ -38,76 +41,109 @@
                 "createOption": "Empty"
             },
             {
+                "managedDisk": {
+                                    "storageAccountType": "Standard_GRS"
+                                },
                 "name": "[concat(parameters('diskNamingPrefix'), 'disk1')]",
                 "diskSizeGB": "[parameters('vmDiskSize')]",
-                "lun": 1,
-                "caching": "[parameters('diskCaching')]",
+                "lun": 1,"
+                "caching": "ReadWrite",
                 "createOption": "Empty"
             },
             {
+                      "managedDisk": {
+                                    "storageAccountType": "Standard_GRS"
+                                },
                 "name": "[concat(parameters('diskNamingPrefix'), 'disk2')]",
                 "diskSizeGB": "[parameters('vmDiskSize')]",
                 "lun": 2,
-                "caching": "[parameters('diskCaching')]",
+                "caching": "ReadWrite",
                 "createOption": "Empty"
             },
             {
+                      "managedDisk": {
+                                    "storageAccountType": "Standard_GRS"
+                                },
                 "name": "[concat(parameters('diskNamingPrefix'), 'disk3')]",
                 "diskSizeGB": "[parameters('vmDiskSize')]",
                 "lun": 3,
-                "caching": "[parameters('diskCaching')]",
+                "caching": "ReadWrite",
                 "createOption": "Empty"
             },
             {
+                      "managedDisk": {
+                                    "storageAccountType": "Standard_GRS"
+                                },
                 "name": "[concat(parameters('diskNamingPrefix'), 'disk4')]",
                 "diskSizeGB": "[parameters('vmDiskSize')]",
                 "lun": 4,
-                "caching": "[parameters('diskCaching')]",
+                "caching": "ReadWrite",
                 "createOption": "Empty"
             },
             {
+                      "managedDisk": {
+                                    "storageAccountType": "Standard_GRS"
+                                },
                 "name": "[concat(parameters('diskNamingPrefix'), 'disk5')]",
                 "diskSizeGB": "[parameters('vmDiskSize')]",
                 "lun": 5,
-                "caching": "[parameters('diskCaching')]",
+                "caching": "ReadWrite",
                 "createOption": "Empty"
             },
             {
+                      "managedDisk": {
+                                    "storageAccountType": "Standard_GRS"
+                                },
                 "name": "[concat(parameters('diskNamingPrefix'), 'disk6')]",
                 "diskSizeGB": "[parameters('vmDiskSize')]",
                 "lun": 6,
-                "caching": "[parameters('diskCaching')]",
+                "caching": "ReadWrite",
                 "createOption": "Empty"
             },
             {
+                      "managedDisk": {
+                                    "storageAccountType": "Standard_GRS"
+                                },
                 "name": "[concat(parameters('diskNamingPrefix'), 'disk7')]",
                 "diskSizeGB": "[parameters('vmDiskSize')]",
                 "lun": 7,
-                "caching": "[parameters('diskCaching')]",
+                "caching": "ReadWrite",
                 "createOption": "Empty"
             },
             {
+                      "managedDisk": {
+                                    "storageAccountType": "Standard_GRS"
+                                },
                 "name": "[concat(parameters('diskNamingPrefix'), 'disk8')]",
                 "diskSizeGB": "[parameters('vmDiskSize')]",
                 "lun": 8,
-                "caching": "[parameters('diskCaching')]",
+                "caching": "ReadWrite",
                 "createOption": "Empty"
             },
             {
+                      "managedDisk": {
+                                    "storageAccountType": "Standard_GRS"
+                                },
                 "name": "[concat(parameters('diskNamingPrefix'), 'disk9')]",
                 "diskSizeGB": "[parameters('vmDiskSize')]",
                 "lun": 9,
-                "caching": "[parameters('diskCaching')]",
+                "caching": "ReadWrite",
                 "createOption": "Empty"
             },
             {
+                      "managedDisk": {
+                                    "storageAccountType": "Standard_GRS"
+                                },
                 "name": "[concat(parameters('diskNamingPrefix'), 'disk10')]",
                 "diskSizeGB": "[parameters('vmDiskSize')]",
                 "lun": 10,
-                "caching": "[parameters('diskCaching')]",
+                "caching": "ReadWrite",
                 "createOption": "Empty"
             },
             {
+                      "managedDisk": {
+                                    "storageAccountType": "Standard_GRS"
+                                },
                 "name": "[concat(parameters('diskNamingPrefix'), 'disk11')]",
                 "diskSizeGB": "[parameters('vmDiskSize')]",
                 "lun": 11,
@@ -115,6 +151,9 @@
                 "createOption": "Empty"
             },
             {
+                      "managedDisk": {
+                                    "storageAccountType": "Standard_GRS"
+                                },
                 "name": "[concat(parameters('diskNamingPrefix'), 'disk12')]",
                 "diskSizeGB": "[parameters('vmDiskSize')]",
                 "lun": 12,
