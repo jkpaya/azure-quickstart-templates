@@ -119,6 +119,10 @@
                 "createOption": "Empty"
             },
             {
+                
+                                "managedDisk": {
+                                    "storageAccountType": "Premium_LRS"
+                                },
                 "name": "[concat(parameters('diskNamingPrefix'), 'disk8')]",
                 "diskSizeGB": "[parameters('vmDiskSize')]",
                 "lun": 8,
@@ -126,6 +130,10 @@
                 "createOption": "Empty"
             },
             {
+                
+                                "managedDisk": {
+                                    "storageAccountType": "Premium_LRS"
+                                },
                 "name": "[concat(parameters('diskNamingPrefix'), 'disk9')]",
                 "diskSizeGB": "[parameters('vmDiskSize')]",
                 "lun": 9,
@@ -133,6 +141,10 @@
                 "createOption": "Empty"
             },
             {
+                
+                                "managedDisk": {
+                                    "storageAccountType": "Premium_LRS"
+                                },
                 "name": "[concat(parameters('diskNamingPrefix'), 'disk10')]",
                 "diskSizeGB": "[parameters('vmDiskSize')]",
                 "lun": 10,
