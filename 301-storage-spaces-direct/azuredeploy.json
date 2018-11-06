@@ -46,7 +46,7 @@
       "metadata": {
         "description": "Size of each data disk in GB on each S2D VM (Min=128, Max=4095)"
       },
-      "defaultValue": 4095
+      "defaultValue": 1023
     },
     "vmDiskCount": {
       "type": "int",
