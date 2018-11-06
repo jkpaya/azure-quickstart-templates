@@ -10,7 +10,7 @@
         "description": "Naming prefix for each new resource created. 3-char min, 8-char max, lowercase alphanumeric"
       }
     },
-    "storageAccountType"managedDisk":  {
+    "storageAccountType":  {
       "type": "string",
       "allowedValues": [
         "Standard_LRS",
