@@ -132,7 +132,7 @@
     {
       "name": "[variables('deployS2DCluster')]",
       "type": "Microsoft.Resources/deployments",
-      "apiVersion": "2015-01-01",
+      "apiVersion": "2017-03-30",
       "dependsOn": [],
       "properties": {
         "mode": "Incremental",
