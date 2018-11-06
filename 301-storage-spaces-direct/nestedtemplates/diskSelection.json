@@ -31,9 +31,7 @@
     "variables": {
         "diskArray": [
             {
-                      "managedDisk": {
-                                    "storageAccountType": "Standard_GRS"
-                                },
+
                 "name": "[concat(parameters('diskNamingPrefix'), 'disk0')]",
                 "diskSizeGB": "[parameters('vmDiskSize')]",
                 "lun": 0,
@@ -41,9 +39,7 @@
                 "createOption": "Empty"
             },
             {
-                "managedDisk": {
-                                    "storageAccountType": "Standard_GRS"
-                                },
+
                 "name": "[concat(parameters('diskNamingPrefix'), 'disk1')]",
                 "diskSizeGB": "[parameters('vmDiskSize')]",
                 "lun": 1,"
@@ -51,9 +47,7 @@
                 "createOption": "Empty"
             },
             {
-                      "managedDisk": {
-                                    "storageAccountType": "Standard_GRS"
-                                },
+
                 "name": "[concat(parameters('diskNamingPrefix'), 'disk2')]",
                 "diskSizeGB": "[parameters('vmDiskSize')]",
                 "lun": 2,
@@ -61,9 +55,7 @@
                 "createOption": "Empty"
             },
             {
-                      "managedDisk": {
-                                    "storageAccountType": "Standard_GRS"
-                                },
+
                 "name": "[concat(parameters('diskNamingPrefix'), 'disk3')]",
                 "diskSizeGB": "[parameters('vmDiskSize')]",
                 "lun": 3,
@@ -71,9 +63,7 @@
                 "createOption": "Empty"
             },
             {
-                      "managedDisk": {
-                                    "storageAccountType": "Standard_GRS"
-                                },
+
                 "name": "[concat(parameters('diskNamingPrefix'), 'disk4')]",
                 "diskSizeGB": "[parameters('vmDiskSize')]",
                 "lun": 4,
@@ -81,9 +71,7 @@
                 "createOption": "Empty"
             },
             {
-                      "managedDisk": {
-                                    "storageAccountType": "Standard_GRS"
-                                },
+
                 "name": "[concat(parameters('diskNamingPrefix'), 'disk5')]",
                 "diskSizeGB": "[parameters('vmDiskSize')]",
                 "lun": 5,
@@ -91,9 +79,7 @@
                 "createOption": "Empty"
             },
             {
-                      "managedDisk": {
-                                    "storageAccountType": "Standard_GRS"
-                                },
+
                 "name": "[concat(parameters('diskNamingPrefix'), 'disk6')]",
                 "diskSizeGB": "[parameters('vmDiskSize')]",
                 "lun": 6,
@@ -101,9 +87,7 @@
                 "createOption": "Empty"
             },
             {
-                      "managedDisk": {
-                                    "storageAccountType": "Standard_GRS"
-                                },
+
                 "name": "[concat(parameters('diskNamingPrefix'), 'disk7')]",
                 "diskSizeGB": "[parameters('vmDiskSize')]",
                 "lun": 7,
@@ -111,9 +95,7 @@
                 "createOption": "Empty"
             },
             {
-                      "managedDisk": {
-                                    "storageAccountType": "Standard_GRS"
-                                },
+
                 "name": "[concat(parameters('diskNamingPrefix'), 'disk8')]",
                 "diskSizeGB": "[parameters('vmDiskSize')]",
                 "lun": 8,
@@ -121,9 +103,7 @@
                 "createOption": "Empty"
             },
             {
-                      "managedDisk": {
-                                    "storageAccountType": "Standard_GRS"
-                                },
+
                 "name": "[concat(parameters('diskNamingPrefix'), 'disk9')]",
                 "diskSizeGB": "[parameters('vmDiskSize')]",
                 "lun": 9,
@@ -131,9 +111,7 @@
                 "createOption": "Empty"
             },
             {
-                      "managedDisk": {
-                                    "storageAccountType": "Standard_GRS"
-                                },
+
                 "name": "[concat(parameters('diskNamingPrefix'), 'disk10')]",
                 "diskSizeGB": "[parameters('vmDiskSize')]",
                 "lun": 10,
@@ -141,9 +119,7 @@
                 "createOption": "Empty"
             },
             {
-                      "managedDisk": {
-                                    "storageAccountType": "Standard_GRS"
-                                },
+
                 "name": "[concat(parameters('diskNamingPrefix'), 'disk11')]",
                 "diskSizeGB": "[parameters('vmDiskSize')]",
                 "lun": 11,
@@ -151,9 +127,7 @@
                 "createOption": "Empty"
             },
             {
-                      "managedDisk": {
-                                    "storageAccountType": "Standard_GRS"
-                                },
+
                 "name": "[concat(parameters('diskNamingPrefix'), 'disk12')]",
                 "diskSizeGB": "[parameters('vmDiskSize')]",
                 "lun": 12,
