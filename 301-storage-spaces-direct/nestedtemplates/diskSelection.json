@@ -29,7 +29,7 @@
         }
     },
     "variables": {
-        "diskArray": [
+         "diskArray": [
             {
                 "name": "[concat(parameters('diskNamingPrefix'), 'disk0')]",
                 "diskSizeGB": "[parameters('vmDiskSize')]",
@@ -40,7 +40,7 @@
             {
                 "name": "[concat(parameters('diskNamingPrefix'), 'disk1')]",
                 "diskSizeGB": "[parameters('vmDiskSize')]",
-                "lun": 1,"
+                "lun": 1,
                 "caching": "None",
                 "createOption": "Empty"
             },
@@ -115,7 +115,6 @@
                 "createOption": "Empty"
             },
             {
-
                 "name": "[concat(parameters('diskNamingPrefix'), 'disk12')]",
                 "diskSizeGB": "[parameters('vmDiskSize')]",
                 "lun": 12,
