@@ -6,19 +6,19 @@
       "value": "GEN-UNIQUE-8"
     },
     "existingDomainName": {
-      "value": "contoso.com"
+      "value": "bws.local"
     },
     "adminUsername": {
-      "value": "biffsys"
+      "value": "jason.paya"
     },
     "adminPassword": {
-      "value": "!B1ffa.B1ffa!"
+      "value": "F@rscape1966"
     },
     "existingVirtualNetworkName": {
-      "value": "vnet01"
+      "value": "vnet-33"
     },
     "existingVirtualNetworkRGName": {
-      "value": "rg01"
+      "value": "Default-Networking-Vnet33"
     },    
     "existingSubnetName": {
       "value": "default"
