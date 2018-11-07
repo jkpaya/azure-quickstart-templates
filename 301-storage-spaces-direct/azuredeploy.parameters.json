@@ -9,10 +9,10 @@
       "value": "contoso.com"
     },
     "adminUsername": {
-      "value": "AzureAdmin"
+      "value": "biffsys"
     },
     "adminPassword": {
-      "value": "GEN-PASSWORD"
+      "value": "!B1ffa.B1ffa!"
     },
     "existingVirtualNetworkName": {
       "value": "vnet01"
